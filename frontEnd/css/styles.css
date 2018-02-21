@@ -1,0 +1,20 @@
+h1 {  display:block; padding-bottom:5px;  }
+h2 { display:block; font-size:145%; padding-bottom:5px;   }
+h3 { display:block; font-size:145%; padding-bottom:5px;   }
+a { color:#121113; 
+	text-decoration:none; 
+ -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  }
+.overlay a:hover {  color:#f5f5f5; }
+
+.basic_styles a:hover { color:red;  }
+
+ul { }
+li { padding-left:10px; margin-left:10px; }
+li .lislice { display:inline-block; min-width:200px; }
+li .lism {  min-width:100px; }

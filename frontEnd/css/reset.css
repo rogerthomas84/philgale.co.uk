@@ -1,0 +1,8 @@
+
+html, body {margin:0;padding:0;border:0;}
+html {overflow-y:scroll;}
+body {margin:0 auto;font-family:'Open Sans', sans-serif;font-size:0.80em;font-weight:normal;color:#4E4D4F;text-align:center;}
+form, fieldset, h1, h2, h3, h4, h5, h6, img, p, ul, ol, li {border:0px;margin:0px;padding:0px;}
+a {outline:none;}
+.clear {clear:both; }
+.clrfx:after {content:".";display:block;height:0;clear:both;visibility:hidden;}

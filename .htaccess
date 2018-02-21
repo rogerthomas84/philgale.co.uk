@@ -1,0 +1,33 @@
+	<FilesMatch "\.(inc(\.php)|config(\.php)|trait(\.php)|interface(\.php)|class(\.php)|controller(\.php)|json|log|sql|tpl(\.php))$">
+	  Order allow,deny
+	</FilesMatch>
+	
+	DirectoryIndex index
+	Options -Indexes
+	Options +FollowSymLinks
+	
+	FileETag None
+	ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+
+	<ifmodule mod_deflate.c>
+		<FilesMatch \.(css|js)$">
+			SetOutputFilter DEFLATE
+		</FilesMatch>
+	</ifmodule>
+		
+	<IfModule mod_rewrite.c>
+		RewriteEngine on
+		
+		# Use this if the framework is placed in a subdirectory
+		#	RewriteBase /
+		
+		# Dont process existing files or the favicon
+		RewriteCond %{REQUEST_FILENAME} -f [OR]
+		RewriteCond %{REQUEST_URI} =/favicon.ico
+		RewriteRule . - [NC,L]
+		
+		# Pass the remaining cases to liteCore
+		RewriteRule ^(.*)$ liteCore/bootstrap.php [L,QSA]
+		
+	</IfModule>
