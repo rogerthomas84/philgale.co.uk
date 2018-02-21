@@ -22,6 +22,10 @@
 		# Use this if the framework is placed in a subdirectory
 		#	RewriteBase /
 		
+		# Protect the .git & .svn directorys
+		RewriteRule .*\.git/.* - [F]
+		RewriteRule .*\.svn/.* - [F]
+		
 		# Dont process existing files or the favicon
 		RewriteCond %{REQUEST_FILENAME} -f [OR]
 		RewriteCond %{REQUEST_URI} =/favicon.ico
