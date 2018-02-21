@@ -29,12 +29,12 @@
         <li>
             <b class="lislice lism">2011 - 2012</b>
             <span class="lislice">Apprentice Drupal developer</span>
-            <a class="lislice" href="http://www.proctors.co.uk">Proctor + Stevenson</a>
+            <a class="lislice" target="_blank" href="http://www.proctors.co.uk">Proctor + Stevenson</a>
         </li>
         <li>
             <b class="lislice lism">2012 - Current</b>
             <span class="lislice">PHP Developer</span>
-            <a href="http://www.red-wing.com" class="lislice">Red-Wing Interactive</a>
+            <a href="http://www.red-wing.com"  target="_blank"  class="lislice">Red-Wing Interactive</a>
         </li>
     </ul>
     <hr />
