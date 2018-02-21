@@ -34,7 +34,7 @@
         <li>
             <b class="lislice lism">2012 - Current</b>
             <span class="lislice">PHP Developer</span>
-            <a href="http://www.red-wing.com"  target="_blank"  class="lislice">Red-Wing Interactive</a>
+            <a href="http://www.red-wing.com"  target="_blank"  class="lislice">Redwing Interactive</a>
         </li>
     </ul>
     <hr />
