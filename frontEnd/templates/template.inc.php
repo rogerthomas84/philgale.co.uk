@@ -74,7 +74,6 @@ echo '<!DOCTYPE html>
         </div>
     </div>
 <!-- 	<i class="fa fa-linkedin" aria-hidden="true"></i> -->
-<script type="text/javascript" src="://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="/frontEnd/js/portfolio.js"></script>
+
 </body>
 </html>';
