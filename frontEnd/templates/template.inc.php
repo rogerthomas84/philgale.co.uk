@@ -20,18 +20,25 @@ if (!isset($bodyTitle)) $bodyTitle = $pageTitle ;
 $blockHtml = '';
 if ($bHasBlocks){
     ob_start();
-    ?>
-    <div class="overlay col">
-        <div class="paddbase">
-            <?= $block1 ?>
-        </div>
-    </div>
-    <div class="overlay col last">
-        <div class="paddbase">
-            <?= $block2 ?>
-        </div>
-    </div>
-    <?php
+    
+	if ($block1 != '') { 
+	?>
+		<div class="overlay col">
+			<div class="paddbase">
+				<?= $block1 ?>
+			</div>
+		</div>
+	<?php 
+	}
+	if ($block2 != '') { 
+		?>
+		<div class="overlay col last">
+			<div class="paddbase">
+				<?= $block2 ?>
+			</div>
+		</div>
+		<?php
+	}
     $blockHtml = ob_get_clean();
 }
 

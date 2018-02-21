@@ -30,6 +30,7 @@ class Router {
             $parsedUrl['path'] = '/';
 		
 		# Fuck around with the requested url, so we're just dealing with alpha-numeric str
+		# could regex, but eh, thats overkill 
         $fName = str_replace(array(
             '/', '.', '?', '&', '\\', '#'
         ), '', $parsedUrl['path']);
