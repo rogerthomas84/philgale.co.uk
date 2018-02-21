@@ -47,8 +47,7 @@ if ( $bUseNav  ) {
     $navHtml = $this->getNavHtml();
 }
 
-echo '
-<!DOCTYPE html>
+echo '<!DOCTYPE html>
 <html class="">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
