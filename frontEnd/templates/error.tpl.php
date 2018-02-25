@@ -1,6 +1,7 @@
 <?php
 
     $bodyClass = 'error';
+
 	ob_start();
 	?>
 	<p>Error: The page you requested could not be found.</p>
