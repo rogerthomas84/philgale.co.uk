@@ -7,7 +7,7 @@ body {
 } 
 
 .paddbase { padding:10px; } 
-
+.paddbase .paddbase { padding-left:0; padding-right:0; }
 .container {
 	margin: 0 auto;
     max-width: 1120px;
