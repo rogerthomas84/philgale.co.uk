@@ -6,8 +6,9 @@ body {
 	background-color:#fff;
 } 
 
-.paddbase { padding:10px; } 
-.paddbase .paddbase { padding-left:0; padding-right:0; }
+.paddbase { padding:10px; }
+.paddbase-y { padding-left:0; padding-right:0; }
+pre { overflow:auto;}
 .container {
 	margin: 0 auto;
     max-width: 1120px;

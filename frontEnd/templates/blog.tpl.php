@@ -7,7 +7,7 @@
 
 
     <div class="content-list-item clear">
-        <div class="paddbase">
+        <div class="paddbase-y">
             <h3>PHP byref foreach</h3>
             <p>This bug caught me out for a few hours once.</p>
             <p>I had some code in the following sort of format.</p>
@@ -37,7 +37,7 @@
 
 
     <div class="content-list-item clear">
-        <div class="paddbase">
+        <div class="paddbase-y">
             <h3>What is this website made in?</h3>
             <p>A super basic url->template router I had sitting in my documents for basic sites. This is not CMS'd as this site is too basic.
             If I do well with coming up with additional content I could set up a little sqllite structure, but for now I just
@@ -51,7 +51,7 @@
 
 
     <div class="content-list-item clear">
-        <div class="paddbase">
+        <div class="paddbase-y">
             <h3>Running</h3>
             <p>This is the mandatory post runners are meant to make saying they run.</p>
             <p>Race times: 1:45:45 for Bristol half 2017, 46:12 for Bristol 10k 2017, 2:00:25 Bristol half 2016.</p>
@@ -62,7 +62,7 @@
 
     <hr/>
 
-	<div class="paddbase">
+	<div class="paddbase-y">
 		<a href="/"><h3>Back</h3></a>
 	</div>
 	

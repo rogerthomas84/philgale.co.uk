@@ -7,7 +7,7 @@ ob_start();
     <p>Note: I will not be releasing any commercial code here.</p>
 
 	<div class="content-list-item clear">
-		<div class="paddbase">
+		<div class="paddbase-y">
 			<a href="https://github.com/PhilGale92/docx" target="_blank"><h3>DOCX PARSER</h3></a>
 			<p>Ok so I wrote the original version in 2012, for a client request of their existing workflow being .docx file based, and wishing each piece of content to only need one copy with no additional work to get them working in a browser format.</p>
 			<p>I found some basic tools online for pulling content (plaintext) from word files so realised I could too. Basically each .docx file is a ZIP archive of misc. other data. Inside are numerous XML files, but two relevant ones are "structure.xml", and "document.xml.rels", they both generally following OpenDocument XML format.</p>
@@ -20,7 +20,7 @@ ob_start();
 
 
     <div class="content-list-item clear">
-        <div class="paddbase">
+        <div class="paddbase-y">
             <h3>System: Automatic database upgrades</h3>
             <p>One of the most annoying parts of managing a CMS, although it doesn't happen much now days, is having an SQL schema change.
             This used to need a developer to perform the update on every database in turn.</p>
@@ -38,7 +38,7 @@ ob_start();
 
     <hr/>
 
-	<div class="paddbase">
+	<div class="paddbase-y">
 		<a href="/"><h3>Back</h3></a>
 	</div>
 
