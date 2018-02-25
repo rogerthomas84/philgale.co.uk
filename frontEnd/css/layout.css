@@ -1,13 +1,9 @@
-body { 
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c0c0c0+0,ffffff+100 */
-	background: #c0c0c0; /* Old browsers */
-	background: -moz-linear-gradient(top, #c0c0c0 0%, #ffffff 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #c0c0c0 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #c0c0c0 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */ 
-
-	background-repeat:no-repeat;
-	
+body {
+	/*
+		Used to have a grad. here, got feedback to try without, im not really too fussed.
+		Yes i know it defaults to white, but if i leave the line in, i'll know i didnt forget
+	*/
+	background-color:#fff;
 } 
 
 .paddbase { padding:10px; } 

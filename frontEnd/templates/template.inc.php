@@ -63,7 +63,7 @@ echo '<!DOCTYPE html>
 <body class="' . $bodyClass . '">
 	<div class="container">
 		<div class="paddbase">
-			<h1>' . $bodyTitle . '</h1>
+			<a href="/"><h1>' . $bodyTitle . '</h1></a>
 			' . $navHtml . '
 			' . $blockHtml . '
             <div class="clear"></div>

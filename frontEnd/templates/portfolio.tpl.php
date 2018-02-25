@@ -4,7 +4,8 @@ $bodyClass = 'portfolio';
 ob_start();
 ?>
 
-	
+    <p>Note: I will not be releasing any commercial code here.</p>
+
 	<div class="content-list-item clear">
 		<div class="paddbase">
 			<a href="https://github.com/PhilGale92/docx" target="_blank"><h3>DOCX PARSER</h3></a>
@@ -16,6 +17,27 @@ ob_start();
 	</div>
 	
 	<hr/>
+
+
+    <div class="content-list-item clear">
+        <div class="paddbase">
+            <h3>System: Automatic database upgrades</h3>
+            <p>One of the most annoying parts of managing a CMS, although it doesn't happen much now days, is having an SQL schema change.
+            This used to need a developer to perform the update on every database in turn.</p>
+            <p>I had over xmas of 2016->2017, build an API, so the CMS could perform self diagnostics have other cool functionality from having an internal API.</p>
+            <p>I performed the following: </p>
+            <ul>
+                <li>Added a new class for tracking installed DB upgrades, and DB upgrades pending installation ( for individual sites)</li>
+                <li>Added functionality in the API CMS for creating a `db upgrade`, which takes your inserted SQL, and runs all the last set of unit tests, using the last dev- code base known to have passed.</li>
+                <li>If the code passes, the SQL is provided in a secondary payload to all API requests, where the pending install version is lower</li>
+                <li>The individual websites install said upgrades at their next background task slot.</li>
+            </ul>
+            <p>This was a fun system as I piggybacked of both the internal API, and the Automatic testing systems which I developed several months before, and everything just worked! Ideal!</p>
+        </div>
+    </div>
+
+    <hr/>
+
 	<div class="paddbase">
 		<a href="/"><h3>Back</h3></a>
 	</div>
