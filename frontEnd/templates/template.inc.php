@@ -68,6 +68,8 @@ echo '<!DOCTYPE html>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
 	<!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
+	
+		' . $googleTrack . ' 
     <link rel="stylesheet" type="text/css" href="/frontEnd/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/frontEnd/css/layout.css" />
     <link rel="stylesheet" type="text/css" href="/frontEnd/css/styles.css" />
@@ -87,6 +89,5 @@ echo '<!DOCTYPE html>
         </div>
     </div>
 <!-- 	<i class="fa fa-linkedin" aria-hidden="true"></i> -->
-	' . $googleTrack . ' 
 </body>
 </html>';
