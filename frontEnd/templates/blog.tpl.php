@@ -12,16 +12,16 @@
             <p>This bug caught me out for a few hours once.</p>
             <p>I had some code in the following sort of format.</p>
             <pre>
-                $basicArray = [ [..],[..]];
-                // Preprocess the basic array (Pollyfill for client requests)
-                foreach ($basicArray as &$arrayItem){
-                    // Still fine
-                }
-                // Now we have done the client request based preprocessing, do some random stuff involving another byref
-                // notice the reference is the same name as the loop above ( due to it being the same thing...)
-                foreach ($basicArray as &$arrayItem){
-                    // Aaand array is corrupted !
-                }
+ $basicArray = [ [..],[..]];
+ // Preprocess the basic array (Pollyfill for client requests)
+ foreach ($basicArray as &$arrayItem){
+     // Still fine
+ }
+ // Now we have done the client request based preprocessing, do some random stuff involving another byref
+ // notice the reference is the same name as the loop above ( due to it being the same thing...)
+ foreach ($basicArray as &$arrayItem){
+     // Aaand array is corrupted !
+ }
             </pre>
             <p>
                 So whats wrong with the above code? The problem was in my naiveity I never realised the value item `arrayItem`, was self-corrupting.

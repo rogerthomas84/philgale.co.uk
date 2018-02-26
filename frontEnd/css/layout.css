@@ -45,7 +45,7 @@ body {
 .overlay a { color:#dedede; } 
 
 
-pre { overflow:auto; color:#fff; background-color:#000; padding:5px; }
+pre { overflow:auto; color:#fff; background-color:#000; padding:5px; font-size:13px; }
 hr {  height:1px; width:100% ; background-color:#000; border:0; margin:15px 0; position:relative; }
 hr:after { height:1px; background-color:#c0c0c0; width:100%; content:""; display:block; top:1px; position:relative;  }
 
