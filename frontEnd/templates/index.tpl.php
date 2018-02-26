@@ -29,6 +29,7 @@ $bUseNav = false;
         <li>SASS</li>
         <li>Drupal (6, 7, 8)</li>
         <li>LAMP maintenance</li>
+        <li>PHPUnit</li>
     </ul>
     
     <hr /> 
@@ -39,11 +40,56 @@ $bUseNav = false;
             <b class="lislice lism">2012 - Current</b>
             <span class="lislice">PHP Developer</span>
             <a href="http://www.red-wing.com"  target="_blank"  class="lislice">Redwing Interactive</a>
+			<ul>
+				<li>
+					<span class="line-descriptor">SM4 - CMS &amp; Framework</span>
+					<p>Its a Drupal-like platform inspired by (but not utilising) Symfony, build for rapidly prototyping and building websites with high performance.</p>
+					<p>APIs: Internal JSON (RWAPI), Worldpay, Paypal (NVP, Express, REST), Sagepay, Google maps, Postcode lookup</p>
+				</li>
+				<li>
+					<span class="line-descriptor">Server maintenance</span>
+					<p>Basic patching, optimising for load. Dedicated Ubuntu LTS, running a LAMP stack, looking into building out a load balanced setup.</p>
+				</li>
+				<li>
+					<span class="line-descriptor">Optimising developer workflows</span>
+					<p>Moved from FTP into SVN when I started, since then migrated into GIT. Written automated deployment &amp; testing tools for internal and client projects when time allows.</p>
+				</li>
+				<li>
+					<a href="https://www.stpauls.co.uk"  target="_blank"  class="lislice line-descriptor">St Paul's Cathedral - Site Build</a>
+					<p>Site build with ticketing, ecommerce and a large number of bespoke templates.</p>
+					<p>APIs: Worldpay, YesPay, Internal SOAP.</p>
+				</li>
+				<li>
+					<a href="https://www.gp-update.co.uk"  target="_blank"  class="lislice line-descriptor">GP-Update - Site Build</a>
+					<p>Site build with full ecommerce functionality, running on many years of client data from various legacy systems. Ported from Classic ASP. As well as a full suite of back-end reporting and management.</p>
+					<p>APIs: Paypal (Express & NVP), Internal Postcode API, Google Maps.</p>
+				</li>
+				<li>
+					<a href="https://gpcpd.com"  target="_blank"  class="lislice line-descriptor">GPCPD - Site Build</a>
+					<p>First solo site build, very bespoke request of tracking user progress</p>
+					<p>APIs: Paypal (NVP), Internal bespoke JSON for easy management of sister-sites, FourteenFish</p>
+				</li>
+				<li>
+					<a href="http://www.contact-the-elderly.org.uk/"  target="_blank"  class="lislice line-descriptor">Contact The Elderly - Site Build</a>
+					<p>Site build, created a highly portable News plugin. Front-end build.</p>
+					<p>APIs: N/A</p>
+				</li>
+				<li>
+					<a href="http://edgbastonhigh.co.uk"  target="_blank"  class="lislice line-descriptor">Edgbaston High School - Site Build</a>
+					<p>APIs: N/A</p>
+				</li>
+				<li>
+					<a href="http://resirva.com/"  target="_blank"  class="lislice line-descriptor">Resirva - Support Role</a>
+				</li>
+			</ul>
         </li>
         <li>
             <b class="lislice lism">2011 - 2012</b>
             <span class="lislice">Apprentice Drupal developer</span>
             <a class="lislice" target="_blank" href="http://www.proctors.co.uk">Proctor + Stevenson</a>
+			<ul>
+				<li>Support role on various sites.</li>
+			</ul>
         </li>
     </ul>
     <hr />

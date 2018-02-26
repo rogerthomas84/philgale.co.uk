@@ -20,3 +20,4 @@ ul { padding-bottom:10px;  }
 li { padding-left:10px; margin-left:20px; }
 li .lislice { display:inline-block; min-width:200px; }
 li .lism {  min-width:100px; }
+.line-descriptor { font-weight:bold;} 
