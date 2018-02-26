@@ -43,6 +43,19 @@ if ($bHasBlocks){
 }
 
 $navHtml = '';
+$googleTrack = <<<JS
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38211399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-38211399-1');
+</script>
+
+JS;
+
 if ( $bUseNav  ) {
     $navHtml = $this->getNavHtml();
 }
@@ -74,6 +87,6 @@ echo '<!DOCTYPE html>
         </div>
     </div>
 <!-- 	<i class="fa fa-linkedin" aria-hidden="true"></i> -->
-
+	' . $googleTrack . ' 
 </body>
 </html>';
