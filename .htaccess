@@ -8,7 +8,7 @@
 	
 	FileETag None
 	ExpiresActive On
-    ExpiresDefault "access plus 1 month"
+    ExpiresDefault "access plus 1 day"
 
 	<ifmodule mod_deflate.c>
 		<FilesMatch \.(css|js)$">
