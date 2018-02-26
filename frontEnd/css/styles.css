@@ -16,8 +16,8 @@ a h1:hover, a h2:hover, a h3:hover, a h4:hover { text-decoration: underline; }
 .overlay a:hover {  color:#f5f5f5; }
 
 .basic_styles a:hover { color:red;  }
-ul { padding-bottom:10px;  }
-li { padding-left:10px; margin-left:20px; }
+ul { padding-bottom:10px; margin-left:10px;   }
+li { padding-left:10px; }
 li .lislice { display:inline-block; min-width:200px; }
 li .lism {  min-width:100px; }
 .line-descriptor { font-weight:bold;} 
