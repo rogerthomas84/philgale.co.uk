@@ -66,6 +66,8 @@ echo '<!DOCTYPE html>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Full stack developer working mainly with PHP web developer, based in Bristol" />
+	<meta name="keywords" content="PHP,Developer,Bristol,Phil Gale,Full Stack,PHP,Javascript,jQuery" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
 	<!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
 	
