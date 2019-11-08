@@ -55,23 +55,29 @@ $bUseNav = false;
 					<p>Moved from FTP into SVN when I started, since then migrated into GIT. Written automated deployment &amp; testing tools for internal and client projects when time allows.</p>
 				</li>
 				<li>
-					<a href="https://www.stpauls.co.uk"  target="_blank"  class="lislice line-descriptor">St Paul's Cathedral - Site Build</a>
+					<a href="https://pharmacylearningcomplete.com/"  target="_blank"  class="lislice line-descriptor">Pharmacy Learning Complete - Site Build (2019)</a>
+					<p>Site build with IP recognition, large content import from various sources, SSO from identity providers.</p>
+					<p>APIs: HighWire Identity (openidc based)</p> 
+				</li>
+				<li>
+					<a href="https://www.stpauls.co.uk"  target="_blank"  class="lislice line-descriptor">St Paul's Cathedral - Site Build (2014 est)</a>
 					<p>Site build with ticketing, ecommerce and a large number of bespoke templates.</p>
 					<p>APIs: Worldpay, YesPay, Internal SOAP.</p>
 				</li>
 				<li>
-					<a href="https://www.gp-update.co.uk"  target="_blank"  class="lislice line-descriptor">GP-Update - Site Build</a>
+					<a href="https://www.gp-update.co.uk"  target="_blank"  class="lislice line-descriptor">GP-Update - Site Build (2015)</a>
 					<p>Site build with full ecommerce functionality, running on many years of client data from various legacy systems. Ported from Classic ASP. As well as a full suite of back-end reporting and management.</p>
 					<p>APIs: Paypal (Express & NVP), Internal Postcode API, Google Maps.</p>
 				</li>
 				<li>
-					<a href="https://gpcpd.com"  target="_blank"  class="lislice line-descriptor">GPCPD - Site Build</a>
+					<a href="https://gpcpd.com"  target="_blank"  class="lislice line-descriptor">GPCPD - Site Build (2013)</a>
 					<p>First solo site build, very bespoke request of tracking user progress</p>
 					<p>APIs: Paypal (NVP), Internal bespoke JSON for easy management of sister-sites, FourteenFish</p>
 				</li>
 				<li>
-					<a href="http://www.contact-the-elderly.org.uk/"  target="_blank"  class="lislice line-descriptor">Contact The Elderly - Site Build</a>
+					<a href="#"  class="lislice line-descriptor">Contact The Elderly - Site Build</a>
 					<p>Site build, created a highly portable News plugin. Front-end build.</p>
+					<p>*They have since changed provider, no longer viewable online*</p>
 					<p>APIs: N/A</p>
 				</li>
 				<li>
@@ -80,11 +86,6 @@ $bUseNav = false;
 				</li>
 				<li>
 					<a href="http://resirva.com/"  target="_blank"  class="lislice line-descriptor">Resirva - Support Role</a>
-				</li>
-				<li>
-					<a href="https://pharmacylearningcomplete.com/"  target="_blank"  class="lislice line-descriptor">Pharmacy Learning Complete</a>
-					<p>Site build with IP recognition, large content import from various sources, SSO from identity providers.</p>
-					<p>APIs: HighWire Identity (openidc based)</p> 
 				</li>
 			</ul>
         </li>
