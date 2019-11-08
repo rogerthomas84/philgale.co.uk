@@ -81,6 +81,11 @@ $bUseNav = false;
 				<li>
 					<a href="http://resirva.com/"  target="_blank"  class="lislice line-descriptor">Resirva - Support Role</a>
 				</li>
+				<li>
+					<a href="https://pharmacylearningcomplete.com/"  target="_blank"  class="lislice line-descriptor">Pharmacy Learning Complete</a>
+					<p>Site build with IP recognition, large content import from various sources, SSO from identity providers.</p>
+					<p>APIs: HighWire Identity (openidc based)</p> 
+				</li>
 			</ul>
         </li>
         <li>
