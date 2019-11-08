@@ -59,6 +59,16 @@ $bUseNav = false;
 					<p>Site build with IP recognition, large content import from various sources, SSO from identity providers.</p>
 					<p>APIs: HighWire Identity (openidc based)</p> 
 				</li>
+								<li>
+					<a href="http://edgbastonhigh.co.uk"  target="_blank"  class="lislice line-descriptor">Edgbaston High School - Site Build (2016 est)</a>
+					<p>APIs: N/A</p>
+				</li>
+				<li>
+					<a href="#"  class="lislice line-descriptor">Contact The Elderly - Site Build (2015 est)</a>
+					<p>Site build, created a highly portable News plugin. Front-end build.</p>
+					<p>*They have since changed provider, no longer viewable online*</p>
+					<p>APIs: N/A</p>
+				</li>
 				<li>
 					<a href="https://www.gp-update.co.uk"  target="_blank"  class="lislice line-descriptor">GP-Update - Site Build (2015)</a>
 					<p>Site build with full ecommerce functionality, running on many years of client data from various legacy systems. Ported from Classic ASP. As well as a full suite of back-end reporting and management.</p>
@@ -70,21 +80,10 @@ $bUseNav = false;
 					<p>APIs: Worldpay, YesPay, Internal SOAP.</p>
 				</li>
 				<li>
-					<a href="http://edgbastonhigh.co.uk"  target="_blank"  class="lislice line-descriptor">Edgbaston High School - Site Build (2016 est)</a>
-					<p>APIs: N/A</p>
-				</li>
-				<li>
 					<a href="https://gpcpd.com"  target="_blank"  class="lislice line-descriptor">GPCPD - Site Build (2013)</a>
 					<p>First solo site build, very bespoke request of tracking user progress</p>
 					<p>APIs: Paypal (NVP), Internal bespoke JSON for easy management of sister-sites, FourteenFish</p>
 				</li>
-				<li>
-					<a href="#"  class="lislice line-descriptor">Contact The Elderly - Site Build (2016 est)</a>
-					<p>Site build, created a highly portable News plugin. Front-end build.</p>
-					<p>*They have since changed provider, no longer viewable online*</p>
-					<p>APIs: N/A</p>
-				</li>
-
 				<li>
 					<a href="http://resirva.com/"  target="_blank"  class="lislice line-descriptor">Resirva - Support Role</a>
 				</li>
