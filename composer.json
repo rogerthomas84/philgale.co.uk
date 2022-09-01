@@ -1,0 +1,10 @@
+{
+  "require": {
+    "php": "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "PhillyG\\" : "lib/"
+    }
+  }
+}

@@ -5,8 +5,13 @@
  * Date: 07/01/2017
  * Time: 14:46
  */
-require_once('Router.class.php');
-$router = new \liteCore\Router(array(
+
+include __DIR__ . '/../vendor/autoload.php';
+
+use PhillyG\Router;
+
+
+$router = new Router(array(
     'index' => 'Home',
     'portfolio' => 'Portfolio',
     'blog' => 'Blog',

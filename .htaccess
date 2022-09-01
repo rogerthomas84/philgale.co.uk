@@ -35,6 +35,6 @@
 		RewriteRule . - [NC,L]
 		
 		# Pass the remaining cases to liteCore
-		RewriteRule ^(.*)$ liteCore/bootstrap.php [L,QSA]
+		RewriteRule ^(.*)$ bootstrap.php [L,QSA]
 		
 	</IfModule>
